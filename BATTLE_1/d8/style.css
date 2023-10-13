@@ -1,4 +1,9 @@
-
+body{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 800px;
+}
 .podium {
     display : flex;
     gap: 0.3rem;
@@ -12,10 +17,7 @@
     width: 120px;
     background-color: rgb(178,178,178);
     height: 60px;
-    transform-style: preserve-3d;
-    perspective: 100px;
     margin-bottom: 0.3rem;
-    transform: translateZ(100px);
 }
 .second-text{
     width: 120px;
