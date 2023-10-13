@@ -1,0 +1,12 @@
+body{
+    padding: 10px;
+}
+.shapes{
+    display: flex;
+}
+.rectangle{
+    background-color:rgb(91,155,213);
+    width: 300px;
+    height: 300px;
+    border: solid black;
+}
